@@ -1,0 +1,39 @@
+.project-window{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 32px;
+}
+
+.calculating-buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.calculating-buttons button{
+  border-radius: 1000px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(33, 33, 33);
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.calculating-buttons .operator{
+  background-color: orange;
+}
+
+.calculating-buttons .clear{
+  font-size: 15px;
+}
