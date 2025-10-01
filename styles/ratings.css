@@ -1,0 +1,34 @@
+.ratings-all{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  width: 100%;
+}
+
+.ratings-container{
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  row-gap: 15px;
+  place-items: start;
+  column-gap: 15px;
+}
+
+.rating{
+  font-size: 20px;
+  border: 2px solid rgb(83, 83, 100);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 11px;
+}
+
+.stars-container{
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.stars{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,72 @@
+.project-window{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-container{
+  min-height: 50px;
+  min-width: none;
+}
+
+.to-do-list-input-grid{
+  display: grid;
+  place-items: center;
+  grid-template-columns: 200px 200px 200px;
+  margin-bottom: 15px;
+  column-gap: 40px;
+}
+
+input{
+  height: 32px;
+  background-color: rgb(9, 8, 24);
+  border: none;
+  color: white;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.to-do-list-to-do-grid{
+  display: grid;
+  place-items: center;
+  grid-template-columns: 200px 200px 200px;
+  row-gap: 15px;
+  column-gap: 40px;
+}
+
+.info{
+  background-color: rgb(9, 8, 24);
+  font-size: 19px;
+  width: 100%;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-button{
+  background-color: red;
+  border: none;
+  height: 32px;
+  width: 85px;
+  color: white;
+  font-size: 19px;
+}
+
+.add-button{
+  background-color: rgb(6, 180, 0);
+  border: none;
+  height: 32px;
+  width: 85px;
+  color: white;
+  font-size: 19px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  background-color: white;
+  border-radius: 4px;
+  padding: 4px;
+}

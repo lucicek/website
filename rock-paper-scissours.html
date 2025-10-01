@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/rock-paper-scissours.css">
+  <title>Home</title>
+</head>
+<body>
+  <div class="body">
+    <div class="nadpis">
+      <a class="logo" href="./index.html">Vítkovy projekty</a>
+      <a class="nadpis-odkazy" href="./error.html">Informace</a>
+      <a class="nadpis-odkazy" href="./error.html">Budoucí projekty</a>
+    </div>
+    <div class="main">
+      <div class="grid-of-selections">
+        <a class="selection" href="./index.html">
+          <img src="images/like-icon.png" class="selection-image">
+          Hodnocení
+        </a>
+        <a class="selection sellected" href="./rock-paper-scissours.html">
+          <img src="images/scissors-emoji.png" class="selection-image">
+          K, N, P
+        </a>
+        <a class="selection" href="./calculator.html">
+          <img src="images/calculator-icon.png" class="selection-image">
+          Kalkulačka
+        </a>
+        <a class="selection" href="./to-do-list.html">
+          <img src="images/to-do-list-icon.png" class="selection-image">
+          Seznam úkolů
+        </a>
+        <a class="selection" href="./pexeso.html">
+          <img src="images/pexeso-icon.png" class="selection-image">
+          Pexeso
+        </a>
+      </div>
+      <div class="project-window">
+        <div>
+          <div class="r-s-p-buttons-container">
+            <button class="r-p-s-button js-rock-button">
+              <img class="r-s-p-image" src="images/rock-emoji.png">
+            </button>
+            <button class="r-p-s-button js-paper-button">
+              <img class="r-s-p-image" src="images/paper-emoji.png">
+            </button>
+            <button class="r-p-s-button js-scissours-button">
+              <img class="r-s-p-image" src="images/scissors-emoji.png">
+            </button>
+          </div>
+          <div class="result-board js-result-board"></div>
+          <button class="r-p-s-other-button js-score-reset">Resetovat</button>
+          <div class="score-board js-score-board"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="scripts/rock-paper-scissours.js"></script>
+</body>
+</html>
